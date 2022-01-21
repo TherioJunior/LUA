@@ -210,7 +210,7 @@ do
     end)
 
     -- Temproary function for converting settings
-    duplicate("RAGE", "Aimbot", "Target selection", ui.new_combobox, "target_selection", "Cycle", "Cycle (2x)", "Near crosshair", "Highest damage", "Lowest ping", "Best K/D ratio", "Best hit chance")
+    duplicate("RAGE", "Aimbot", "Target selection", ui.new_combobox, "target_selection", "Cycle", "Cycle (2x)", "Near crosshair", "Highest damage", "Best hit chance")
     duplicate("RAGE", "Aimbot", "Target hitbox", ui.new_multiselect, "target_hitbox", "Head", "Chest", "Stomach", "Arms", "Legs", "Feet")
     duplicate("RAGE", "Aimbot", "Multi-point", ui.new_multiselect, "multi_point", "Head", "Chest", "Stomach", "Arms", "Legs", "Feet")
     duplicate("RAGE", "Aimbot", "Multi-point scale", ui.new_slider, "multi_point_scale", 24, 100, 24, true, "%", 1)
@@ -223,13 +223,12 @@ do
     duplicate("RAGE", "Aimbot", "Minimum damage", ui.new_slider, "minimum_damage", 0, 126, 0, true, "%", 1)
     duplicate("RAGE", "Aimbot", "Automatic scope", ui.new_checkbox, "automatic_scope")
     duplicate("RAGE", "Aimbot", "Maximum FOV", ui.new_slider, "maximum_fov", 1, 180, 180, true, "°")
-    duplicate("RAGE", "Other", "Accuracy boost", ui.new_combobox, "accuracy_boost", "Off", "Low", "Medium", "High", "Maximum")
+    duplicate("RAGE", "Other", "Accuracy boost", ui.new_combobox, "accuracy_boost", "Low", "Medium", "High", "Maximum")
     duplicate("RAGE", "Other", "Delay shot", ui.new_checkbox, "delay_shot")
     duplicate("RAGE", "Other", "Quick stop", ui.new_checkbox, "quick_stop")
     duplicate("RAGE", "Other", "Quick stop options", ui.new_multiselect, "quick_stop_options", "Early", "Slow motion", "Duck", "Fake duck", "Move between shots", "Ignore molotov")
     duplicate("RAGE", "Other", "Prefer body aim", ui.new_checkbox, "prefer_baim")
-    duplicate("RAGE", "Other", "Prefer body aim disablers", ui.new_multiselect, "prefer_baim_disablers", "Low inaccuracy", "Target shot fired", "Target resolved", "Safe point headshot", "Low damage")
-    duplicate("RAGE", "Other", "Force body aim on peek", ui.new_checkbox, "force_baim_peek")
+    duplicate("RAGE", "Other", "Prefer body aim disablers", ui.new_multiselect, "prefer_baim_disablers", "Low inaccuracy", "Target shot fired", "Target resolved", "Safe point headshot")
     duplicate("AA", "Other", "On shot anti-aim", ui.new_checkbox, "on_shot_aa") 
 
     -- save the default config settings
