@@ -1,0 +1,44 @@
+Main Module (lolowned.lua) -> {
+	string split function -> {
+		https://i.imgur.com/5itmu5M.png
+		Line 125-144
+	}
+	
+	base64 decode function -> {
+		https://i.imgur.com/m8E4iFy.png
+		Line 228-250
+	}
+	
+	notify message function -> {
+		https://i.imgur.com/xAv9vDv.png
+		Line 253-306
+	}
+	
+	get fps function -> {
+		https://i.imgur.com/Tav6xQp.png
+		Line 1460-1491
+	}
+	
+	lethal flag function -> {
+		https://i.imgur.com/vADTEVH.png
+		Line 6926-6934
+		// this one isn't even accurate
+	}
+	
+	e peek when on bombsite/hostage rescue function -> {
+		https://i.imgur.com/fo4UZrT.png
+		Line 7176-7205
+	}
+}
+
+Module (modules/penetration_damage.lua) -> {
+	Full lua pasted
+}
+
+Module (modules/resolver.lua) -> {
+	Animation structure
+}
+
+Module (modules/svg.lua) -> {
+	Weapon icon part pasted
+}
